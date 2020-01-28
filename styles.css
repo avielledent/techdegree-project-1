@@ -88,7 +88,7 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
-.card {
+.background-card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -98,8 +98,50 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
-  border-color: #ff99ff;
+.background-card:hover {
+  border-color: #1b67bd;
+}
+
+.goals-card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.goals-card:hover {
+  border-color: #19be58;
+}
+
+.skills-card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.skills-card:hover {
+  border-color: #a51d8e;
+}
+
+.companies-card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.companies-card:hover {
+  border-color: #dfab1c;
 }
 
 .hobby-card {
@@ -113,7 +155,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .hobby-card:hover {
-  border-color: purple;
+  border-color: rgb(189, 25, 47);
 }
 
 ul.skills {
