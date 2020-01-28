@@ -102,6 +102,22 @@ header .profile-image:hover {
   border-color: #1b67bd;
 }
 
+.background-image {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  border: 2px solid black;
+  transition: all .5s;
+}
+
+.background-image:hover {
+  transform: scale(1.5);
+}
+
 .goals-card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -112,8 +128,25 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
 .goals-card:hover {
   border-color: #19be58;
+}
+
+.goal-image {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  border: 2px solid black;
+  transition: all .5s;
+}
+
+.goal-image:hover {
+  transform: scale(1.5);
 }
 
 .skills-card {
@@ -130,6 +163,22 @@ header .profile-image:hover {
   border-color: #a51d8e;
 }
 
+.skills-image {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  border: 2px solid black;
+  transition: all .5s;
+}
+
+.skills-image:hover {
+  transform: scale(1.5);
+}
+
 .companies-card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -144,6 +193,22 @@ header .profile-image:hover {
   border-color: #dfab1c;
 }
 
+.companies-image {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  border: 2px solid black;
+  transition: all .5s;
+}
+
+.companies-image:hover {
+  transform: scale(1.5);
+}
+
 .hobby-card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -156,6 +221,22 @@ header .profile-image:hover {
 }
 .hobby-card:hover {
   border-color: rgb(189, 25, 47);
+}
+
+.hobby-image {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  border: 2px solid black;
+  transition: all .5s;
+}
+
+.hobby-image:hover {
+  transform: scale(1.5);
 }
 
 ul.skills {
